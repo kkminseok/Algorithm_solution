@@ -10,7 +10,6 @@ def divide(maps, row, col, size):
         color = maps[row][col]
         for i in range(row, row + size):
             for j in range(col, col + size):
-                print(i,j,size)
                 if color != maps[i][j]:
                     return False
         return True
