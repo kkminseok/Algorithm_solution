@@ -1,5 +1,4 @@
 from sys import stdin
-from copy import deepcopy
 
 
 def recur(listed: list, m: int):
