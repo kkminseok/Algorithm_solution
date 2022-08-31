@@ -33,9 +33,9 @@ def solution() -> None:
                         break
         if not error:
             if cnt:
-                print('[' + ','.join(map(str,data_list)) + ']')
+                print('[' + ','.join(map(str, data_list)) + ']')
             else:
-                print('['+','.join(map(str,list(reversed(data_list)))) + ']')
+                print('[' + ','.join(map(str, list(reversed(data_list)))) + ']')
 
 
 solution()
