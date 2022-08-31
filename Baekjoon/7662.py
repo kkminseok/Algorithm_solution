@@ -13,7 +13,7 @@ def solution() -> None:
         for _ in range(command_count):
             command, data = map(str, stdin.readline().split())
             data = int(data)
-            #print(command, data, dic)
+            # print(command, data, dic)
             if command == 'I':
                 heapq.heappush(max_heap, -data)
                 heapq.heappush(min_heap, data)
