@@ -17,4 +17,5 @@ class Solution:
             #print(mid,left,right)
         return left
 
+
 ```
